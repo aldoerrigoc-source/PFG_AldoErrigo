@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [25/May/2026:11:47:38 +0200] "GET /trabajogr/TechnicianAvailable HTTP/1.1" 200 1515
+0:0:0:0:0:0:0:1 - - [25/May/2026:11:47:39 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
