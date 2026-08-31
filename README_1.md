@@ -5,6 +5,26 @@ Repositorio del Trabajo de Fin de Grado: **Análisis de utilización de IA gener
 El proyecto valida un sistema pedagógico asistido por IA para la asignatura de Ingeniería del Software. Incluye una aplicación ERP construida con ayuda de IA (Roo Code + Claude Sonnet), un sistema de corrección automática de entregas con Playwright, y un receptor de notas accesible desde el navegador.
 
 ---
+## Archivos no incluidos en el repositorio
+
+La carpeta `Programs/JavaStack/` **no está en el repositorio** porque contiene
+binarios que superan el límite de 100 MB por archivo impuesto por GitHub.
+
+Incluye: JDK 17, Apache Maven 3.9 y Apache Tomcat 9 (necesarios para
+compilar y ejecutar el corrector Playwright).
+
+### Cómo obtenerlos
+
+| Componente | Descarga |
+|---|---|
+| JDK 17 | https://adoptium.net (Temurin 17) |
+| Apache Maven 3.9 | https://maven.apache.org/download.cgi |
+| Apache Tomcat 9 | https://tomcat.apache.org/download-90.cgi |
+
+Una vez descargados, colocarlos en `Programs/JavaStack/` respetando la
+estructura de rutas que usa `corregir.bat`.
+
+---
 
 ## Estructura del repositorio
 
