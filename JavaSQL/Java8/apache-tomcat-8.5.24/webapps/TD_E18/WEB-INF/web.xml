@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>Cafeteria</servlet-name>
+  <servlet-class>Cafeteria</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Parking</servlet-name>
+  <servlet-class>Parking</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Polideportivo</servlet-name>
+  <servlet-class>Polideportivo</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>AulaEstudios</servlet-name>
+  <servlet-class>AulaEstudios</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Biblioteca</servlet-name>
+  <servlet-class>Biblioteca</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>registro</servlet-name>
+  <servlet-class>registro</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Erasmus</servlet-name>
+  <servlet-class>Erasmus</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Cafeteria</servlet-name>
+  <url-pattern>/Cafeteria</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Parking</servlet-name>
+  <url-pattern>/Parking</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Polideportivo</servlet-name>
+  <url-pattern>/Polideportivo</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>AulaEstudios</servlet-name>
+  <url-pattern>/AulaEstudios</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Biblioteca</servlet-name>
+  <url-pattern>/Biblioteca</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>registro</servlet-name>
+  <url-pattern>/registro</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Erasmus</servlet-name>
+  <url-pattern>/Erasmus</url-pattern>
+</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>primer</servlet-name>
+  <servlet-class>HelloWorld</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Celdas</servlet-name>
+  <servlet-class>Celdas</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CrearMatriz</servlet-name>
+  <servlet-class>CrearMatriz</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>MostrarMatrices</servlet-name>
+  <servlet-class>MostrarMatrices</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+  <servlet-name>primer</servlet-name>
+  <url-pattern>/primer.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CrearMatriz</servlet-name>
+  <url-pattern>/CrearMatriz</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>MostrarMatrices</servlet-name>
+  <url-pattern>/MostrarMatrices</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Celdas</servlet-name>
+  <url-pattern>/Celdas</url-pattern>
+</servlet-mapping>
+
+</web-app>

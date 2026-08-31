@@ -1,0 +1,22 @@
+<web-app>
+
+<servlet>
+  <servlet-name>LinksServlet</servlet-name>
+  <servlet-class>LinksServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LinksServlet</servlet-name>
+  <url-pattern>/LinksServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>CeldasParametrosServlet </servlet-name>
+  <servlet-class>CeldasParametrosServlet </servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>CeldasParametrosServlet </servlet-name>
+  <url-pattern>/CeldasParametrosServlet </url-pattern>
+</servlet-mapping>
+</web-app>

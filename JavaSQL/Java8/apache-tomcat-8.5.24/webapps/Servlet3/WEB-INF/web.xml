@@ -1,0 +1,22 @@
+<web-app>
+
+<servlet>
+  <servlet-name>CeldasServlet</servlet-name>
+  <servlet-class>CeldasServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>CeldasServlet</servlet-name>
+  <url-pattern>/CeldasServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>ValorFilas</servlet-name>
+  <servlet-class>ValorFilas</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>ValorFilas</servlet-name>
+  <url-pattern>/ValorFilas</url-pattern>
+</servlet-mapping>
+</web-app>

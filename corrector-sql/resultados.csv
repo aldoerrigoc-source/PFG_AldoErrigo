@@ -1,0 +1,13 @@
+alumno;item;resultado;detalle
+alu001;1;OK;
+alu001;2;OK;
+alu001;3;OK;
+alu001;4;OK;
+alu002;1;FALLO;resultado no coincide (0 filas obtenidas, 15 esperadas)
+alu002;2;OK;
+alu002;3;OK;
+alu002;4;OK;
+alu003;1;OK;
+alu003;2;OK;
+alu003;3;OK;
+alu003;4;OK;

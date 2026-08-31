@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>Combinacion</servlet-name>
+  <servlet-class>Combinacion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Combinacion</servlet-name>
+  <url-pattern>/Combinacion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Variacion</servlet-name>
+  <servlet-class>Variacion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Variacion</servlet-name>
+  <url-pattern>/Variacion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Permutacion</servlet-name>
+  <servlet-class>Permutacion</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Permutacion</servlet-name>
+  <url-pattern>/Permutacion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Binomial</servlet-name>
+  <servlet-class>Binomial</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Binomial</servlet-name>
+  <url-pattern>/Binomial</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Poisson</servlet-name>
+  <servlet-class>Poisson</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Poisson</servlet-name>
+  <url-pattern>/Poisson</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>Geometrica</servlet-name>
+  <servlet-class>Geometrica</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Geometrica</servlet-name>
+  <url-pattern>/Geometrica</url-pattern>
+</servlet-mapping>
+
+</web-app>

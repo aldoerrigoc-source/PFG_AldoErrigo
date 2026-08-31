@@ -1,0 +1,12 @@
+2026-07-08T09:00:00
+Alumno;p1-Accesible;p2-DevelopedBy;p3-TablaFilas;p4-CabeceraTH;p5-Min4Col;p6-Consistente;p7-Stock;p8-StockValores;p9-Imagen;p10-SrcPatron;Total
+http://localhost:8082/aerrigochan;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;10,00
+http://localhost:8082/mgarcia;1,00;0,50;1,00;1,00;1,00;1,00;1,00;0,50;1,00;0,50;8,50
+http://localhost:8082/jlopez;1,00;1,00;0,50;0,50;0,00;0,00;0,00;0,00;0,00;0,00;3,00
+http://localhost:8082/rperez;0,00;;;;;;;;;;0,00
+http://localhost:8082/sfernandez;1,00;1,00;1,00;1,00;1,00;1,00;0,00;0,00;1,00;0,50;7,50
+http://localhost:8082/tmartinez;1,00;0,00;1,00;0,50;0,00;1,00;0,00;0,00;0,50;0,00;4,00
+http://localhost:8082/pgomez;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00
+http://localhost:8082/lruiz;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;1,00;10,00
+http://localhost:8082/dcastro;Error: net::ERR_CONNECTION_REFUSED;;;;;;;;;;0
+http://localhost:8082/vherrera;1,00;1,00;1,00;1,00;1,00;1,00;0,50;0,50;1,00;1,00;9,00

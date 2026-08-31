@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Suppliers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script>
+    function SuppliersCtrl($scope, $http) {
+      $scope.reg = "10";
+      $http.get('http://localhost:8082/SQLServer/Servlet?sql=select * from Suppliers')
+      .success(function(data) {
+        $scope.sessions = data.records;
+        $scope.time = new Date;
+        })
+    }
+    </script>
+    <!--<link rel="stylesheet" href="app.css">-->
+  </head>
+  <body ng-controller="SuppliersCtrl">
+    <header><h1>Suppliers</h1></header>
+    <h2>Suppliers {{ time | date }}</h2>
+    <!--    <div class="third"><img src="img/clouds.jpg" alt="Clouds" /></div>-->
+    <div class="two-thirds" id="timetable">
+      <table>
+        <tr><th>SupplierID</th><th>CompanyName</th><th>ContactName</th><th>ContactTitle</th><th>Address</th></tr>
+        <tr ng-repeat="session in sessions">
+          <td>{{ session.SupplierID }}</td>
+          <td>{{ session.CompanyName }}</td>
+          <td>{{ session.ContactName }}</td>
+          <td>{{ session.ContactTitle }}</td>
+          <td>{{ session.Address }}</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<HTML>
+    <HEAD>
+        <TITLE>AulaEstudios</TITLE>
+		<H1>Reserva Aulas de estudio</H1>
+    </HEAD>
+	
+	
+    <BODY>
+	
+	
+	<form action="AulaEstudios" method="GET" name="form">
+		<P>Solo puede reservar las aulas de estudio una vez al d&iacute;a.</P>
+		
+		<PRE>
+		Nombre: <input NAME="nombre" size="20">
+		Apellido: <input NAME="apellido" size="20">
+		Correo institucional: <input NAME="Correo" size="20">
+		
+		</PRE>
+		
+		Seleccione dia :
+		<input TYPE="date" name='Date'>
+		<P>Seleccione horario:</P>
+		
+			<p><select NAME="Pago" size="1" >
+			<option VALUE="Horario">  9:00-10:30 </option>
+			<option VALUE="Horario"> 10:30-12:00 </option>
+			<option VALUE="Horario"> 12:00-13:30 </option>
+			<option VALUE="Horario"> 13:30-15:00 </option>
+			<option VALUE="Horario"> 15:00-16:30 </option>
+			<option VALUE="Horario"> 16:30-18:00 </option>
+			<option VALUE="Horario"> 18:00-19:30 </option>
+			<option VALUE="Horario"> 19:30-21:00 </option>
+			</select>
+			
+			
+		<P>Seleccione Aula:</P>	
+			<p><select NAME="Aula" size="3" MULTIPLE>
+			<option VALUE="Aula Gauss"> Aula Gauss </option>
+			<option VALUE="Aula Elhuyar"> Aula Elhuyar  </option>
+			<option VALUE="Aula Joule"> Aula Joule </option>
+			<option VALUE="Aula Newton"> Aula Newton  </option>
+			<option VALUE="Aula Marie Curie"> Aula Marie Curie </option>
+			</select>
+		
+		
+		
+		<P><input TYPE="SUBMIT" VALUE="Reservar"> </P>
+		
+	</form>
+	
+	
+    </BODY>
+</HTML>

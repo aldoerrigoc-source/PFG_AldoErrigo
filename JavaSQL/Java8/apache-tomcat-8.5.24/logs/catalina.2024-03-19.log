@@ -1,0 +1,929 @@
+19-Mar-2024 17:27:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 17:27:23.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 17:27:23.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 17:27:24.195 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:27:24.765 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:27:24.780 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:27:24.780 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:27:24.780 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3453 ms
+19-Mar-2024 17:27:24.890 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 17:27:24.890 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 17:27:24.938 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 17:27:25.791 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:25.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [998] ms
+19-Mar-2024 17:27:25.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 17:27:29.351 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:29.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [3,510] ms
+19-Mar-2024 17:27:29.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 17:27:29.542 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:29.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [111] ms
+19-Mar-2024 17:27:29.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 17:27:29.621 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:29.621 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [64] ms
+19-Mar-2024 17:27:29.621 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 17:27:29.733 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:29.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [147] ms
+19-Mar-2024 17:27:29.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 17:27:29.851 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:27:29.860 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [92] ms
+19-Mar-2024 17:27:29.876 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:27:29.891 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:27:29.891 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5121 ms
+19-Mar-2024 17:34:30.368 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Servlet1]
+19-Mar-2024 17:34:30.368 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet1] has started
+19-Mar-2024 17:34:30.544 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:34:30.552 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet1] is completed
+19-Mar-2024 17:35:43.171 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 17:35:43.171 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:35:43.592 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:35:44.077 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 17:35:44.126 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:35:44.134 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:35:44.134 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:35:44.134 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 17:35:48.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 17:35:48.198 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:35:48.400 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:35:48.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:35:48.400 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:35:48.400 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 474 ms
+19-Mar-2024 17:35:48.424 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 17:35:48.424 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 17:35:48.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 17:35:48.587 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [195] ms
+19-Mar-2024 17:35:48.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 17:35:48.758 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [170] ms
+19-Mar-2024 17:35:48.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 17:35:48.814 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [24] ms
+19-Mar-2024 17:35:48.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 17:35:48.830 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [17] ms
+19-Mar-2024 17:35:48.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 17:35:48.855 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [16] ms
+19-Mar-2024 17:35:48.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 17:35:48.896 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:35:48.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [50] ms
+19-Mar-2024 17:35:48.907 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:35:48.912 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:35:48.912 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 510 ms
+19-Mar-2024 17:40:55.150 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 17:40:55.150 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:40:55.563 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:40:56.034 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 17:40:56.083 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:40:56.083 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:40:56.091 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:40:56.091 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 17:44:02.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 17:44:02.542 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 17:44:02.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:44:02.857 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:44:02.865 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:44:02.865 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 17:44:02.865 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 557 ms
+19-Mar-2024 17:44:02.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 17:44:02.898 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 17:44:02.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 17:44:03.133 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [267] ms
+19-Mar-2024 17:44:03.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 17:44:03.343 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [191] ms
+19-Mar-2024 17:44:03.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 17:44:03.397 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [25] ms
+19-Mar-2024 17:44:03.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 17:44:03.413 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [24] ms
+19-Mar-2024 17:44:03.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 17:44:03.437 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [16] ms
+19-Mar-2024 17:44:03.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 17:44:03.477 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 17:44:03.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [40] ms
+19-Mar-2024 17:44:03.485 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 17:44:03.493 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 17:44:03.493 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 627 ms
+19-Mar-2024 18:12:17.196 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 18:12:17.196 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:12:17.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:12:18.136 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 18:12:18.306 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:12:18.318 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:12:18.319 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:12:18.320 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 18:22:54.029 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 18:22:54.125 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:22:54.364 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:22:54.368 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:22:54.368 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:22:54.368 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 595 ms
+19-Mar-2024 18:22:54.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 18:22:54.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 18:22:54.393 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 18:22:54.583 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [221] ms
+19-Mar-2024 18:22:54.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 18:22:54.788 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [190] ms
+19-Mar-2024 18:22:54.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 18:22:54.836 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [31] ms
+19-Mar-2024 18:22:54.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 18:22:54.867 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [16] ms
+19-Mar-2024 18:22:54.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 18:22:54.883 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [32] ms
+19-Mar-2024 18:22:54.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 18:22:54.947 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:22:54.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [48] ms
+19-Mar-2024 18:22:54.947 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:22:54.964 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:22:54.964 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 597 ms
+19-Mar-2024 18:30:52.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 18:30:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 18:30:52.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 18:30:52.354 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:30:52.652 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:30:52.668 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:30:52.673 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:30:52.673 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 670 ms
+19-Mar-2024 18:30:52.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 18:30:52.693 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 18:30:52.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 18:30:52.887 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:52.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [226] ms
+19-Mar-2024 18:30:52.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 18:30:53.106 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:53.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [227] ms
+19-Mar-2024 18:30:53.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 18:30:53.171 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:53.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [29] ms
+19-Mar-2024 18:30:53.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 18:30:53.187 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:53.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [20] ms
+19-Mar-2024 18:30:53.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 18:30:53.211 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:53.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [16] ms
+19-Mar-2024 18:30:53.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 18:30:53.252 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:30:53.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [41] ms
+19-Mar-2024 18:30:53.252 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:30:53.260 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:30:53.268 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 594 ms
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:43:56.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 18:43:56.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 18:43:56.879 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:43:57.130 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:43:57.138 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:43:57.138 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:43:57.138 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 587 ms
+19-Mar-2024 18:43:57.162 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 18:43:57.162 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 18:43:57.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 18:43:57.357 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [239] ms
+19-Mar-2024 18:43:57.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 18:43:57.602 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [230] ms
+19-Mar-2024 18:43:57.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 18:43:57.656 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [25] ms
+19-Mar-2024 18:43:57.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 18:43:57.680 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [24] ms
+19-Mar-2024 18:43:57.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 18:43:57.704 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [32] ms
+19-Mar-2024 18:43:57.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 18:43:57.744 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:43:57.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [40] ms
+19-Mar-2024 18:43:57.753 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:43:57.753 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:43:57.769 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 624 ms
+19-Mar-2024 18:47:03.365 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 18:47:03.365 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:47:03.811 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:47:04.298 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 18:47:04.353 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:47:04.353 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:47:04.356 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:47:04.356 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 18:52:14.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 18:52:14.107 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:52:14.361 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:52:14.368 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:52:14.368 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 18:52:14.368 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 606 ms
+19-Mar-2024 18:52:14.392 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 18:52:14.392 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 18:52:14.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 18:52:14.604 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:14.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [269] ms
+19-Mar-2024 18:52:14.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 18:52:14.903 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:14.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [276] ms
+19-Mar-2024 18:52:14.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 18:52:14.984 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:14.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [47] ms
+19-Mar-2024 18:52:14.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 18:52:15.001 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:15.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [25] ms
+19-Mar-2024 18:52:15.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 18:52:15.049 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:15.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [40] ms
+19-Mar-2024 18:52:15.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 18:52:15.098 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 18:52:15.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [41] ms
+19-Mar-2024 18:52:15.098 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:52:15.122 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:52:15.130 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 759 ms
+19-Mar-2024 18:52:59.337 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 18:52:59.341 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:52:59.760 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:53:00.295 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 18:53:00.342 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:53:00.350 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 18:53:00.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 18:53:00.353 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 19:00:07.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 19:00:07.979 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:00:08.230 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:00:08.239 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:00:08.239 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:00:08.239 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 602 ms
+19-Mar-2024 19:00:08.272 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 19:00:08.272 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 19:00:08.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 19:00:08.488 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [264] ms
+19-Mar-2024 19:00:08.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 19:00:08.748 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [244] ms
+19-Mar-2024 19:00:08.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 19:00:08.812 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [32] ms
+19-Mar-2024 19:00:08.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 19:00:08.844 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [24] ms
+19-Mar-2024 19:00:08.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 19:00:08.868 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [32] ms
+19-Mar-2024 19:00:08.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 19:00:08.941 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:00:08.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [81] ms
+19-Mar-2024 19:00:08.958 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:00:08.965 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:00:08.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 729 ms
+19-Mar-2024 19:24:59.525 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 19:24:59.525 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:24:59.811 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:24:59.994 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 19:25:00.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:25:00.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:25:00.144 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:25:00.144 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:33:28.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 19:33:28.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 19:33:28.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 19:33:28.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:33:28.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:33:28.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 19:33:28.501 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 19:33:28.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:33:28.740 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:33:28.756 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:33:28.758 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:33:28.758 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 450 ms
+19-Mar-2024 19:33:28.773 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 19:33:28.773 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 19:33:28.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 19:33:28.935 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:28.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [197] ms
+19-Mar-2024 19:33:28.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 19:33:29.122 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [165] ms
+19-Mar-2024 19:33:29.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 19:33:29.163 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [31] ms
+19-Mar-2024 19:33:29.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 19:33:29.168 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [2] ms
+19-Mar-2024 19:33:29.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 19:33:29.196 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [31] ms
+19-Mar-2024 19:33:29.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 19:33:29.231 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [35] ms
+19-Mar-2024 19:33:29.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 19:33:29.266 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:33:29.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [35] ms
+19-Mar-2024 19:33:29.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:33:29.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:33:29.271 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 522 ms
+19-Mar-2024 19:34:17.406 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 19:34:17.406 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:34:17.642 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:34:17.909 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 19:34:17.956 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:34:17.971 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:34:17.971 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:34:17.971 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 19:59:31.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 19:59:31.258 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:59:31.463 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:59:31.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:59:31.463 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 19:59:31.463 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 835 ms
+19-Mar-2024 19:59:31.479 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 19:59:31.479 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 19:59:31.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 19:59:31.668 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:31.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [220] ms
+19-Mar-2024 19:59:31.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 19:59:32.458 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [775] ms
+19-Mar-2024 19:59:32.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 19:59:32.505 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [32] ms
+19-Mar-2024 19:59:32.524 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 19:59:32.524 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [13] ms
+19-Mar-2024 19:59:32.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 19:59:32.553 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [16] ms
+19-Mar-2024 19:59:32.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 19:59:32.615 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [62] ms
+19-Mar-2024 19:59:32.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 19:59:32.663 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 19:59:32.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [48] ms
+19-Mar-2024 19:59:32.663 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 19:59:32.663 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 19:59:32.678 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1204 ms
+19-Mar-2024 20:02:02.890 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Servlet2]
+19-Mar-2024 20:02:02.891 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet2] has started
+19-Mar-2024 20:02:02.941 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:02:02.944 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:02.946 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:02.949 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet2] is completed
+19-Mar-2024 20:02:03.096 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:03.349 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:02:03.419 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:03.424 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:03.428 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:03.429 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:07.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:02:07.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:02:07.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:02:07.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:02:07.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:02:07.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:07.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:02:07.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:02:07.967 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:08.158 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:02:08.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:08.164 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:02:08.164 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 446 ms
+19-Mar-2024 20:02:08.179 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:02:08.179 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:02:08.185 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:02:08.357 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [210] ms
+19-Mar-2024 20:02:08.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:02:08.516 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [145] ms
+19-Mar-2024 20:02:08.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:02:08.557 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [21] ms
+19-Mar-2024 20:02:08.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:02:08.572 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [12] ms
+19-Mar-2024 20:02:08.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:02:08.593 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [23] ms
+19-Mar-2024 20:02:08.598 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:02:08.616 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [33] ms
+19-Mar-2024 20:02:08.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:02:08.648 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:08.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [19] ms
+19-Mar-2024 20:02:08.652 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:08.660 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:08.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 498 ms
+19-Mar-2024 20:02:41.762 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:02:41.762 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:42.000 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:42.210 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:02:42.260 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:42.269 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:42.271 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:42.272 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:02:54.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:02:54.464 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:54.653 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:02:54.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:54.653 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:02:54.653 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 429 ms
+19-Mar-2024 20:02:54.668 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:02:54.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:02:54.684 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:02:54.841 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:54.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [189] ms
+19-Mar-2024 20:02:54.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:02:55.030 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [172] ms
+19-Mar-2024 20:02:55.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:02:55.077 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [32] ms
+19-Mar-2024 20:02:55.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:02:55.092 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.092 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [15] ms
+19-Mar-2024 20:02:55.092 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:02:55.110 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [18] ms
+19-Mar-2024 20:02:55.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:02:55.139 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [29] ms
+19-Mar-2024 20:02:55.139 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:02:55.171 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:02:55.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [32] ms
+19-Mar-2024 20:02:55.171 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:02:55.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:02:55.187 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 527 ms
+19-Mar-2024 20:07:06.862 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:07:06.862 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:07:07.188 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:07:07.440 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:07:07.472 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:07:07.472 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:07:07.472 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:07:07.486 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:07:21.910 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:07:21.973 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:07:22.179 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:07:22.194 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:07:22.194 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:07:22.194 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 477 ms
+19-Mar-2024 20:07:22.212 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:07:22.212 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:07:22.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:07:22.383 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [188] ms
+19-Mar-2024 20:07:22.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:07:22.556 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [175] ms
+19-Mar-2024 20:07:22.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:07:22.603 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [14] ms
+19-Mar-2024 20:07:22.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:07:22.619 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [16] ms
+19-Mar-2024 20:07:22.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:07:22.635 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [16] ms
+19-Mar-2024 20:07:22.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:07:22.667 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [48] ms
+19-Mar-2024 20:07:22.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:07:22.716 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:07:22.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [33] ms
+19-Mar-2024 20:07:22.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:07:22.730 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:07:22.730 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 534 ms
+19-Mar-2024 20:16:51.561 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:16:51.561 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:16:51.813 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:16:52.034 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:16:52.081 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:16:52.081 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:16:52.081 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:16:52.081 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:17:24.299 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:17:24.362 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:17:24.550 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:17:24.550 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:17:24.550 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:17:24.550 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 434 ms
+19-Mar-2024 20:17:24.566 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:17:24.566 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:17:24.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:17:24.740 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:24.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [206] ms
+19-Mar-2024 20:17:24.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:17:24.944 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:24.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [188] ms
+19-Mar-2024 20:17:24.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:17:24.992 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:24.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [16] ms
+19-Mar-2024 20:17:24.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:17:25.007 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:25.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [15] ms
+19-Mar-2024 20:17:25.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:17:25.038 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:25.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [31] ms
+19-Mar-2024 20:17:25.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:17:25.070 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:25.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [32] ms
+19-Mar-2024 20:17:25.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:17:25.117 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:17:25.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [47] ms
+19-Mar-2024 20:17:25.117 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:17:25.117 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:17:25.133 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 572 ms
+19-Mar-2024 20:19:05.237 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2 - Copy]
+19-Mar-2024 20:19:05.368 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:19:05.379 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2 - Copy] has finished in [143] ms
+19-Mar-2024 20:19:15.903 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Servlet2 - Copy]
+19-Mar-2024 20:19:15.957 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3]
+19-Mar-2024 20:19:16.039 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:19:16.046 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3] has finished in [88] ms
+19-Mar-2024 20:21:16.221 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Servlet3]
+19-Mar-2024 20:21:16.222 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet3] has started
+19-Mar-2024 20:21:16.282 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:21:16.288 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Servlet3] is completed
+19-Mar-2024 20:28:14.563 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:28:14.563 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:14.815 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:15.003 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:28:15.035 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:15.050 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:15.050 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:15.050 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:28:17.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:28:17.521 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:28:17.583 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:17.772 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:28:17.772 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:17.772 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:28:17.772 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 444 ms
+19-Mar-2024 20:28:17.797 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:28:17.797 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:28:17.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:28:17.961 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [204] ms
+19-Mar-2024 20:28:18.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:28:18.156 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [185] ms
+19-Mar-2024 20:28:18.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:28:18.213 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [27] ms
+19-Mar-2024 20:28:18.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:28:18.230 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [10] ms
+19-Mar-2024 20:28:18.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:28:18.243 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [13] ms
+19-Mar-2024 20:28:18.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:28:18.292 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [50] ms
+19-Mar-2024 20:28:18.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:28:18.315 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [22] ms
+19-Mar-2024 20:28:18.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3]
+19-Mar-2024 20:28:18.329 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:28:18.329 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3] has finished in [9] ms
+19-Mar-2024 20:28:18.329 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:18.343 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:18.343 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 562 ms
+19-Mar-2024 20:28:58.593 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:28:58.593 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:58.876 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:59.048 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:28:59.096 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:59.096 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:28:59.112 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:28:59.112 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\JavaSQL\Java8\jdk1.8.0_131\jre
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\JavaSQL\Java8\apache-tomcat-8.5.24\conf\logging.properties
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\JavaSQL\Java8\apache-tomcat-8.5.24
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\JavaSQL\Java8\apache-tomcat-8.5.24\temp
+19-Mar-2024 20:42:06.433 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JavaSQL\Java8\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JavaSQL\Java8\jdk1.8.0_131\bin;D:\JavaSQL\Java8\jdk1.8.0_131\db\bin;D:\JavaSQL\Java8\squirrelsql-4.0.0-standard;D:\JavaSQL\Java8\apache-tomcat-8.5.24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Aldoa\Desktop\Infor\bin;C:\Users\Aldoa\AppData\Local\Microsoft\WindowsApps;;.]
+19-Mar-2024 20:42:06.502 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:42:06.702 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:42:06.716 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:42:06.716 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2024 20:42:06.716 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 464 ms
+19-Mar-2024 20:42:06.732 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2024 20:42:06.732 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+19-Mar-2024 20:42:06.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs]
+19-Mar-2024 20:42:06.890 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:06.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\docs] has finished in [190] ms
+19-Mar-2024 20:42:06.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples]
+19-Mar-2024 20:42:07.063 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.095 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\examples] has finished in [173] ms
+19-Mar-2024 20:42:07.095 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager]
+19-Mar-2024 20:42:07.111 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\host-manager] has finished in [16] ms
+19-Mar-2024 20:42:07.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT]
+19-Mar-2024 20:42:07.126 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\ROOT] has finished in [15] ms
+19-Mar-2024 20:42:07.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer]
+19-Mar-2024 20:42:07.142 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\SQLServer] has finished in [32] ms
+19-Mar-2024 20:42:07.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1]
+19-Mar-2024 20:42:07.189 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet1] has finished in [31] ms
+19-Mar-2024 20:42:07.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2]
+19-Mar-2024 20:42:07.221 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet2] has finished in [32] ms
+19-Mar-2024 20:42:07.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3]
+19-Mar-2024 20:42:07.283 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2024 20:42:07.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\JavaSQL\Java8\apache-tomcat-8.5.24\webapps\Servlet3] has finished in [62] ms
+19-Mar-2024 20:42:07.283 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:42:07.303 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:42:07.303 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 591 ms
+19-Mar-2024 20:47:56.816 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2024 20:47:56.817 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:47:57.062 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:47:57.364 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2024 20:47:57.562 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:47:57.564 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2024 20:47:57.567 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+19-Mar-2024 20:47:57.568 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
