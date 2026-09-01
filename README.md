@@ -2,7 +2,7 @@
 
 Repositorio del Trabajo de Fin de Grado: **Análisis de utilización de IA generativa en Ingeniería del Software**.
 
-El proyecto valida un sistema pedagógico asistido por IA para la asignatura de Ingeniería del Software. Incluye una aplicación ERP construida con ayuda de IA (Roo Code + Claude Sonnet), un sistema de corrección automática de entregas con Playwright, y un receptor de notas accesible desde el navegador.
+El proyecto valida un sistema asistido por IA para la asignatura de Ingeniería del Software. Incluye una aplicación ERP construida con ayuda de IA (Roo Code + Claude Sonnet), un sistema de corrección automática de entregas con Playwright, y un receptor de notas accesible desde el navegador.
 
 ---
 ## Archivos no incluidos en el repositorio
