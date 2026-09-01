@@ -96,7 +96,7 @@ Cada zip se despliega como una aplicación web independiente accesible en `http:
 
 ### 4. Receptor de notas (`Tomcat/webapps/notasReceptor/`)
 
-Servlet que recibe las notas enviadas por `ClienteNotas.java` y las muestra en una tabla HTML ordenada alfabéticamente, accesible en `http://localhost:8082/notasReceptor/notas`.
+Servlet que recibe las notas enviadas por `ClienteNotas.java` y las muestra en una tabla ordenada alfabéticamente, accesible en `http://localhost:8082/notasReceptor/notas`.
 
 ---
 
@@ -140,7 +140,7 @@ Antes de correr, ajustar la ruta de `Biblio.accdb` en `CorrectorSQL.java`.
 
 ### 6. Corrector de VBA (`corrector-vba/`)
 
-Corrige macros VBA automatizando Excel real (sin ventanas visibles). Coloca una fórmula conocida en una celda, ejecuta la macro del alumno y comprueba el resultado en las celdas de salida. Cada alumno entrega un archivo `.xlsm` con su macro.
+Corrige macros VBA automatizando Excel. Coloca una fórmula conocida en una celda, ejecuta la macro del alumno y comprueba el resultado en las celdas de salida. Cada alumno entrega un archivo `.xlsm` con su macro.
 
 - `corrector_practica3.py` — script Python que automatiza Excel vía `pywin32`
 - `entregas/` — carpeta donde se colocan los `.xlsm` de los alumnos (un archivo por alumno)
